@@ -124,3 +124,5 @@ Multiplayer leaderboard
 Discord/Slack integration for XP updates
 
 Custom daily goal setting
+
+────────────────────────
