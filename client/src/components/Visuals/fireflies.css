@@ -1,0 +1,37 @@
+.firefly {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #c6ff00;
+  border-radius: 50%;
+  animation: fly 15s linear infinite;
+  opacity: 0.6;
+  top: 50%;
+  left: 50%;
+  mix-blend-mode: screen;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0) scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate(calc(100vw - 50%), calc(100vh - 50%)) scale(1.4);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50vw, -50vh) scale(0.5);
+    opacity: 0.2;
+  }
+}
+
+.firefly:nth-child(odd) {
+  animation-duration: 20s;
+  animation-delay: -10s;
+}
+
+.firefly:nth-child(even) {
+  animation-duration: 25s;
+  animation-delay: -5s;
+}

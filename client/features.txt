@@ -1,0 +1,50 @@
+🧾 Project: Gamified User Dashboard
+🎯 Core Objective:
+Create a personal dashboard that allows a user to:
+
+Log in with Google
+
+Track XP, levels, activity streaks
+
+Check in with mood
+
+Get rewards
+
+✅ Main Features (Must-Have for Submission)
+Feature	Description
+🔐 Google Login	Firebase Google Sign-In
+🏠 Dashboard Page	Shows user info + main UI
+📊 XP Tracker	User gains XP (e.g., on login or mood check)
+🔢 Level System	XP is converted into levels (e.g., 100 XP = level 2)
+🔁 Activity Streak	Tracks login or mood streak (e.g., 3-day streak)
+😊 Mood Check-In	User picks an emoji or types mood
+🔄 Save to Firestore	All data (XP, mood, streak) stored & loaded
+🧾 XP Progress Bar	Visually shows XP progress towards next level
+
+🎁 Optional Features (Add Later for Bonus Points / Polish)
+Feature	Description
+🎉 Level-Up Reward Message	Show animation/popup when user levels up
+📅 Streak Calendar	Weekly grid showing daily activity like GitHub commits
+🌗 Dark/Light Mode Toggle	Switch between light/dark (green theme variants)
+🧠 Mood History	Show last 5 mood entries or a chart
+🔔 Daily XP Limit	Prevent XP farming by capping daily XP
+🧬 Firefly Theme Animation	Add glowy firefly particle animation in background
+🖼️ User Avatar + Name	Display user photo and name
+📱 Responsive UI	Works on mobile beautifully
+🔊 Sound on Level-Up or Mood Check	Add a chime or soft feedback sound
+🌐 Multi-Language Support	Optional: Choose UI language / mood in Hindi-English etc.
+
+✨ Bonus Feature Ideas (If You Have Time at the End)
+Feature	Description
+🎨 Theme Customizer	Let user pick different glow themes (firefly, forest, neon)
+🧩 Mini Challenge System	Offer bonus XP for small tasks (like "log mood 5 times")
+🏅 Badges / Achievements	Award badges for streaks, levels, mood logging
+📂 Download Mood Report	Export mood history to CSV or chart as image
+🧑‍💻 Admin View (If multi-user)	Show all user progress (for later advanced scope)
+
+🧠 Build Strategy
+Main MVP First (Main Features Only): XP, level, streak, mood, save/load from Firestore
+
+Polish UI (Tailwind + animations)
+
+Add Optional Features if time allows
