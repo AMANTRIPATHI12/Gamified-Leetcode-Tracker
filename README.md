@@ -1,4 +1,4 @@
-Gamified Coding Dashboard
+**Gamified Coding Dashboard**
 This is a full-stack gamified dashboard designed to make daily coding practice visually immersive and rewarding. It integrates with LeetCode, tracks user progress, assigns daily problems, awards XP, unlocks achievements, and evolves the theme dynamically like a game.
 
 🔧 Tech Stack
